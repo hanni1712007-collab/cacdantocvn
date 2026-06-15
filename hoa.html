@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dân tộc Hoa</title>
+    <!-- CSS riêng cho trang con -->
+    <link rel="stylesheet" href="menucon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="navbar-container">
+        <div class="logo">
+            <img src="logo HVPN.png" alt="Logo"> 
+            <span>Dân tộc Hoa</span>
+        </div>
+        <nav>
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Tìm kiếm ...">
+            </div>
+            <ul class="menu">
+
+    <li>
+        <a href="index.html">🏠 Trang chủ</a>
+    </li>
+
+    <!-- TỔNG QUAN -->
+    <li class="dropdown">
+        <a href="hoa.html">📖 Tổng quan ▼</a>
+
+        <ul class="submenu">
+
+            <li>
+                <a href="hoa.html#gioithieu">Giới thiệu</a>
+            </li>
+
+            <li>
+                <a href="hoa.html#nguongoc">Nguồn gốc</a>
+            </li>
+
+            <li>
+                <a href="hoa.html#phanbo">Phân bố dân cư</a>
+            </li>
+
+        </ul>
+    </li>
+
+    <!-- VĂN HÓA -->
+    <li class="dropdown">
+        <a href="vanhoaHoa.html">🎭 Văn hóa ▼</a>
+
+        <ul class="submenu">
+
+            <li>
+                <a href="vanhoaHoa.html#trangphuc">Trang phục</a>
+            </li>
+
+            <li>
+                <a href="vanhoaHoa.html#lehoi">Lễ hội</a>
+            </li>
+
+            <li>
+                <a href="vanhoaHoa.html#nghethuat">Nghệ thuật</a>
+            </li>
+
+            <li>
+                <a href="vanhoaHoa.html#amthuc">Ẩm thực</a>
+            </li>
+
+        </ul>
+    </li>
+
+    <!-- THƯ VIỆN -->
+    <li>
+        <a href="#">🖼️ Thư viện</a>
+    </li>
+
+</ul>
+</header>
+
+<section class="ethnic-banner">
+    <img src="dân tộc.jpg" alt="Dân tộc Hoa">
+    <div class="ethnic-overlay">
+        <h1>Dân tộc Hoa</h1>
+        <p>Khám phá văn hóa truyền thống của người Việt</p>
+    </div>
+</section>
+
+<section id="gioithieu" class="content-block">
+    <div class="container">
+
+    <h2>📖 Tổng quan</h2>
+
+    <div class="overview-layout">
+
+        <div class="overview-image">
+            <img src="hoa.jpg" alt="Dân tộc Hoa">
+        </div>
+
+        <div class="overview-content">
+
+            <h3>Dân tộc Hoa</h3>
+
+            <p>
+                           Dân tộc Hoa là cộng đồng người gốc Hoa sinh sống lâu đời tại Việt Nam.
+            Người Hoa có vai trò quan trọng trong lĩnh vực thương mại, thủ công nghiệp
+            và góp phần làm phong phú thêm nền văn hóa đa dạng của Việt Nam.  </p>
+
+            <div class="overview-tags">
+
+                <span>👥 Khoảng 750.000 người</span>
+            
+                <span>🗣️ Tiếng Hoa</span>
+            
+                <span>📍 Nam Bộ và các đô thị lớn</span>
+            
+                <span>🏷️ Nhóm ngôn ngữ Hán</span>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</section>
+
+<section id="nguongoc" class="content-block">
+<div class="container">
+<h2>🏺 Nguồn gốc lịch sử</h2>
+
+<div class="history-line">
+
+    <div class="history-item">
+        <div class="number">1</div>
+        <h3>Di cư</h3>
+        <p>Nhiều nhóm người Hoa di cư đến Việt Nam từ nhiều thế kỷ trước.</p>
+    </div>
+
+    <div class="history-item">
+        <div class="number">2</div>
+        <h3>Định cư</h3>
+        <p>Tập trung tại các thành phố và khu vực buôn bán sầm uất.</p>
+    </div>
+
+    <div class="history-item">
+        <div class="number">3</div>
+        <h3>Phát triển</h3>
+        <p>Đóng góp lớn trong lĩnh vực kinh doanh và thương mại.</p>
+    </div>
+
+    <div class="history-item">
+        <div class="number">4</div>
+        <h3>Hiện nay</h3>
+        <p>Tiếp tục bảo tồn văn hóa truyền thống và hòa nhập với cộng đồng Việt Nam.</p>
+    </div>
+
+</div>
+</div>
+</section>
+
+<section id="phanbo" class="content-block">
+<div class="container">
+<h2>📍 Phân bố dân cư</h2>
+
+<div class="distribution-layout">
+
+    <img src="bản đồ Hoa.png" alt="Bản đồ" onclick="openImage(this.src)">
+
+    <div>
+
+        <div class="area-card">
+            <h3>TP. Hồ Chí Minh</h3>
+            <p>Cộng đồng người Hoa đông nhất Việt Nam, đặc biệt tại khu Chợ Lớn.</p>
+        </div>
+
+        <div class="area-card">
+            <h3>Đồng Nai - Bình Dương</h3>
+            <p>Có nhiều người Hoa tham gia kinh doanh và sản xuất.</p>
+        </div>
+
+        <div class="area-card">
+            <h3>Sóc Trăng - Bạc Liêu</h3>
+            <p>Cư trú lâu đời và giữ gìn nhiều nét văn hóa truyền thống.</p>
+        </div>
+
+    </div>
+
+</div>
+</div>
+</section>
+
+<footer id="lienhe">
+    <div class="footer-content">
+        <h3>Cổng Thông Tin Văn Hóa Các Dân Tộc Việt Nam</h3>
+        <p>Gìn giữ bản sắc - Kết nối tương lai</p>
+        <div class="footer-line"></div>
+        <p>✉ Email: dantocvietnam@gmail.com</p>
+        <p class="copyright">© 2026 Bản quyền thuộc về Website Dân Tộc Việt Nam</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<div id="imageModal" class="image-modal">
+    <span class="close-btn" onclick="closeImage()">&times;</span>
+
+    <img id="modalImg" class="modal-content">
+
+</div>
+</body>
+</html>
